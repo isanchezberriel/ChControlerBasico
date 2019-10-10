@@ -20,8 +20,8 @@ Sobre la escena que has trabajado ubica un cubo que represente un personaje que 
 **Recuerda:** Vector3 dispone de la propiedad forward. 
 **Ayuda**: la traslación la puedes calcular usando el sistema de referencia del objeto. 
 **Ayuda**: Puede que necesites la función GetComponent 
-- Elegir otros ejes virtuales para el giro y girar al jugador sobre el eje OY (up).
-- Cada vez que el cubo colisione con una esfera se debe disminuir el poder que tiene.
+- Elegir otros ejes virtuales para el giro y girar al jugador sobre el eje OY (up). 
+- Cada vez que el cubo colisione con una esfera se debe disminuir el poder que tiene. 
 - Crear una esfera con física, imprimir en la consola, el estado por el que pasan las colisiones cuando el cubo choca con ella. 
-- Realizar un controlodaro para un objeto físico: 
+-Realizar un controlodaro para un objeto físico: 
 **Recuerda:** En este no debemos mover el objeto actuando sobre su sistema de referencia. Debe ser el motor de física quien actualice sus posiciones, para ello se debe aplicar una fuerza proporcional a la velocidad y la intensidad con la que el jugador usa los ejes.
